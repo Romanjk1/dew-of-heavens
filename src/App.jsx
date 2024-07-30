@@ -8,6 +8,7 @@ import Features from './Components/Features'
 import Offer from './Components/Offer'
 import Blog from './Components/Blog'
 import Footer from './Components/Footer'
+import BackToTop from './Components/BackToTop'
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
         </article>
       </main>
       <Footer />
+      <BackToTop />
     </>
   )
 }

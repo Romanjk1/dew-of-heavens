@@ -3,29 +3,38 @@ import React, { useState, useEffect } from 'react'
 
 const Header = () => {
   const [Toggle, showMenu] = useState(false)
-
-  const [show, setShow] = useState(false)
-  let lastScrollTop = 0
+  const [isActive, setIsActive] = useState(false)
+  const [lastScrolledPos, setLastScrolledPos] = useState(0)
 
   const handleScroll = () => {
-    const scrollTop = window.scrollY
-    if (scrollTop > lastScrollTop) {
-      setShow(true)
+    const scrollY = window.scrollY
+
+    // Handle header activation based on scroll position
+    if (scrollY > 150) {
+      setIsActive(true)
     } else {
-      setShow(false)
+      setIsActive(false)
     }
+
+    // Handle sticky header based on scroll direction
+    if (lastScrolledPos >= scrollY) {
+      document.querySelector('[data-header]').classList.remove('header-hide')
+    } else {
+      document.querySelector('[data-header]').classList.add('header-hide')
+    }
+
+    setLastScrolledPos(scrollY)
   }
 
-  // const headerSticky = function(){
-  //   if(lastScrollTop )
-  // }
-
   useEffect(() => {
+    // Add scroll event listener
     window.addEventListener('scroll', handleScroll)
+
+    // Clean up event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [])
+  }, [lastScrolledPos]) // Dependency array with lastScrolledPos to handle updates
 
   return (
     <>
@@ -35,7 +44,7 @@ const Header = () => {
             <p className="alert-text">Free Shipping On All U.S. Orders $50+</p>
           </div>
         </div>
-        <div className={`header-top ${show ? 'active' : ''}`}>
+        <div data-header className={`header-top ${isActive ? 'active' : ''}`}>
           <div className="container">
             <button
               className="nav-open-btn"
@@ -59,7 +68,7 @@ const Header = () => {
               </button>
             </div>
             <a href="#" className="logo">
-              <img src={Logo} alt="Glowing" width={179} height={26} />
+              <img src={Logo} alt="Glowing" width={179} height={40} />
             </a>
             <div className="header-actions">
               <button className="header-action-btn" aria-label="user">
