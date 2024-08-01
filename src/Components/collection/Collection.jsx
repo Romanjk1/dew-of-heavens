@@ -25,7 +25,7 @@ const Collection = () => {
               <p className="card-text">Starting at $17.99</p>
               <a href="" className="btn-link">
                 <span className="span">Shop Now</span>
-                <i class="bx bx-right-arrow-alt"></i>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                 <div className="has-bg-image " style={b1}></div>
               </a>
             </div>
@@ -36,7 +36,7 @@ const Collection = () => {
               <p className="card-text">Get the glow</p>
               <a href="" className="btn-link">
                 <span className="span">Discover Now</span>
-                <i class="bx bx-right-arrow-alt"></i>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
 
                 <div className="has-bg-image " style={b2}></div>
               </a>
@@ -49,7 +49,7 @@ const Collection = () => {
               <p className="card-text">Starting at $7.99</p>
               <a href="" className="btn-link">
                 <span className="span">Discover Now</span>
-                <i class="bx bx-right-arrow-alt"></i>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
 
                 <div className="has-bg-image " style={b3}></div>
               </a>

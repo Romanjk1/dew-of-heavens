@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/1.png'
 import React, { useState, useEffect } from 'react'
 
 const Header = () => {
@@ -64,25 +64,28 @@ const Header = () => {
                 className="search-field"
               />
               <button className="search-submit" aria-label="search">
-                <i className="bx bx-search"></i>
+                <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
               </button>
             </div>
             <a href="#" className="logo">
-              <img src={Logo} alt="Glowing" width={179} height={40} />
+              <img src={Logo} alt="Glowing" width={179} height={26} />
             </a>
             <div className="header-actions">
               <button className="header-action-btn" aria-label="user">
-                <i class="bx bx-user"></i>
+                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
               </button>
               <button className="header-action-btn" aria-label="star">
-                <i class="bx bx-star"></i>
+                <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
                 <span className="btn-badge">0</span>
               </button>
               <button className="header-action-btn" aria-label="favorite item">
                 <data value="0" className="btn-text">
                   $0.00
                 </data>
-                <i class="bx bx-shopping-bag"></i>
+                <ion-icon
+                  name="bag-handle-outline"
+                  aria-hidden="true"
+                ></ion-icon>
                 <span className="btn-badge">0</span>
               </button>
             </div>

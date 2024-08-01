@@ -41,20 +41,29 @@ const Shop = () => {
                   <span className="badge">-20%</span>
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
 
                 <div className="card-content">
                   <div className="price">
-                    <del className="del"></del>
+                    <del className="del">$39.00</del>
                     <span className="span">$29.00</span>
                   </div>
                   <h3>
@@ -90,21 +99,28 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
 
                 <div className="card-content">
                   <div className="price">
-                    <span className="span">$29.00</span>
-                    <del className="del"></del>
                     <span className="span">$29.00</span>
                   </div>
                   <h3>
@@ -140,21 +156,28 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
 
                 <div className="card-content">
                   <div className="price">
-                    <span className="span">$29.00</span>
-                    <del className="del"></del>
                     <span className="span">$29.00</span>
                   </div>
                   <h3>
@@ -190,21 +213,28 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
 
                 <div className="card-content">
                   <div className="price">
-                    <span className="span">$29.00</span>
-                    <del className="del"></del>
                     <span className="span">$29.00</span>
                   </div>
                   <h3>
@@ -240,21 +270,29 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
 
                 <div className="card-content">
                   <div className="price">
-                    <span className="span">$29.00</span>
-                    <del className="del"></del>
+                    <del className="del">$39.00</del>
                     <span className="span">$29.00</span>
                   </div>
                   <h3>
@@ -290,21 +328,28 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
 
                 <div className="card-content">
                   <div className="price">
-                    <span className="span">$29.00</span>
-                    <del className="del"></del>
                     <span className="span">$29.00</span>
                   </div>
                   <h3>
@@ -356,13 +401,22 @@ const Shop = () => {
                   <span className="badge">-20%</span>
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
@@ -405,13 +459,22 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
@@ -453,13 +516,22 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
@@ -501,13 +573,22 @@ const Shop = () => {
                   <span className="badge">-20%</span>
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
@@ -550,13 +631,22 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>
@@ -599,13 +689,22 @@ const Shop = () => {
 
                   <div className="card-actions">
                     <button className="action-btn">
-                      <i class="bx bx-shopping-bag"></i>
+                      <ion-icon
+                        name="bag-handle-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-star"></i>
+                      <ion-icon
+                        name="star-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                     <button className="action-btn">
-                      <i class="bx bx-git-compare"></i>
+                      <ion-icon
+                        name="repeat-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
                     </button>
                   </div>
                 </div>

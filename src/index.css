@@ -344,7 +344,7 @@ body {
 }
 .header-top.active {
   position: fixed;
-  top: -100px;
+  top: -80px;
   bottom: auto;
   box-shadow: var(--shadow-1);
   transform: translateY(100%);
@@ -359,6 +359,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  height: 40px;
 }
 .nav-open-btn {
   width: 26px;
@@ -844,10 +845,12 @@ body {
   border-radius: 50%;
   box-shadow: var(--shadow-1);
   z-index: 4;
+
   opacity: 0;
   visibility: hidden;
   transition: var(--transition-1);
 }
+
 .back-top-btn:is(:hover, :focus) {
   background-color: var(--hoockers-green);
   color: var(--white);
@@ -856,7 +859,9 @@ body {
   opacity: 1;
   visibility: visible;
   transform: translate(-10px);
+  height: 48px;
 }
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -1041,6 +1046,9 @@ body {
     position: unset;
     padding-block: 24px 0;
   }
+  .header-top .container {
+    height: 48px;
+  }
   .header-top:is(.active, .header-hide) {
     all: unset;
   }
@@ -1145,7 +1153,7 @@ body {
     position: fixed;
     top: -80px;
     bottom: auto;
-    padding-bottom: 28px;
+    padding-block: 28px;
     box-shadow: var(--shadow-1);
     transform: translateY(100%);
     transition: var(--transition-2);
