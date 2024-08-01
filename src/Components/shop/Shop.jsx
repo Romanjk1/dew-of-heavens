@@ -14,7 +14,7 @@ import img11 from '../../assets/product-11.jpg'
 const Shop = () => {
   return (
     <>
-      <section className="section shop" id="shop">
+      <section className="section shop reveal" id="shop">
         <div className="container">
           <div className="title-wrapper">
             <h2 className="h2 section-title">Our Bestsellers</h2>
@@ -374,7 +374,7 @@ const Shop = () => {
         </div>
       </section>
 
-      <section className="section shop" id="shop">
+      <section className="section shop reveal" id="shop">
         <div className="container">
           <div className="title-wrapper">
             <h2 className="h2 section-title">Under $25</h2>

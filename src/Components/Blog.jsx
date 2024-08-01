@@ -4,7 +4,7 @@ import blog2 from './../assets/blog-2.jpg'
 import blog3 from './../assets/blog-3.jpg'
 const Blog = () => {
   return (
-    <section className="section blog" id="blog" data-section>
+    <section className="section blog reveal" id="blog">
       <div className="container">
         <h2 className="h2-large section-title">More to Discover</h2>
         <ul className="flex-list">

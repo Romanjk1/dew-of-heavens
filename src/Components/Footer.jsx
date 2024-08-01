@@ -4,7 +4,7 @@ import pay from './../assets/pay.png'
 
 const Footer = () => {
   return (
-    <footer className="footer" data-section>
+    <footer className="footer reveal">
       <div className="container">
         <div className="footer-top">
           <ul className="footer-list">

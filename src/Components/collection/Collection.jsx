@@ -16,7 +16,7 @@ const Collection = () => {
     zIndex: -1,
   }
   return (
-    <section className="section  collection " id="collection" data-section>
+    <section className="section  collection reveal" id="collection">
       <div className="container">
         <ul className="collection-list">
           <li>

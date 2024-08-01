@@ -4,7 +4,7 @@ import feature2 from './../assets/feature-2.jpg'
 import feature3 from './../assets/feature-3.jpg'
 const Features = () => {
   return (
-    <section className="section feature">
+    <section className="section feature reveal">
       <div className="container">
         <h2 className="h2-large section-title">
           Why Shop with Dew of Heavens?

@@ -300,15 +300,16 @@ body {
 .w-100 {
   width: 100%;
 }
-/* [data-section] > * {
+.reveal > * {
   transform: translateY(100px);
   opacity: 0;
-  transition: var(--transition-3);
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Adjust timing as needed */
 }
-[data-section].active > * {
+
+.reveal.active > * {
   transform: translateY(0);
   opacity: 1;
-} */
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -344,7 +345,7 @@ body {
 }
 .header-top.active {
   position: fixed;
-  top: -80px;
+  top: -100px;
   bottom: auto;
   box-shadow: var(--shadow-1);
   transform: translateY(100%);
@@ -420,9 +421,7 @@ body {
   font-size: 28px;
   color: var(--hoockers-green);
 }
-.nav-close-btn .bx-x {
-  stroke-width: 40px;
-}
+
 .mobile-navbar .navbar-link {
   color: var(--black);
   font-size: var(--fs-8);
@@ -1045,6 +1044,9 @@ body {
   .header-top {
     position: unset;
     padding-block: 24px 0;
+  }
+  .header-top.active {
+    top: -80px;
   }
   .header-top .container {
     height: 48px;

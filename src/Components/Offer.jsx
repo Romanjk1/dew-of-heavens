@@ -4,7 +4,7 @@ import offer2 from './../assets/offer-banner-2.jpg'
 
 const Offer = () => {
   return (
-    <section className="section offer" id="offer" data-section>
+    <section className="section offer reveal" id="offer">
       <div className="container">
         <figure className="offer-banner">
           <img
