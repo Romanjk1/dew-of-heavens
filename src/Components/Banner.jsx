@@ -12,7 +12,7 @@ const Banner = () => {
     zIndex: -1,
   }
   return (
-    <section className="section banner" data-section>
+    <section className="section banner reveal">
       <div className="container">
         <ul className="banner-list">
           <li>
