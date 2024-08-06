@@ -5,6 +5,13 @@ const Header = () => {
   const [Toggle, showMenu] = useState(false)
   const [isActive, setIsActive] = useState(false)
   const [lastScrolledPos, setLastScrolledPos] = useState(0)
+  const [navToggle, setNavToggle] = useState(false)
+
+  const handleNavLink = () => {
+    if (navToggle) {
+      showMenu(!Toggle)
+    }
+  }
 
   const handleScroll = () => {
     const scrollY = window.scrollY
@@ -125,45 +132,58 @@ const Header = () => {
 
       {/* Mobile Navbar */}
       <div className="sidebar">
-        <div
-          className={Toggle ? 'mobile-navbar active ' : 'mobile-navbar'}
-          data-navbar
-        >
+        <div className={Toggle ? 'mobile-navbar active ' : 'mobile-navbar'}>
           <div className="wrapper">
             <a href="#" className="logo">
               <img src={Logo} alt="Glowing" width={179} height={26} />
             </a>
-            <button
-              className="nav-close-btn"
-              data-nav-toggle
-              onClick={() => showMenu(!Toggle)}
-            >
+            <button className="nav-close-btn" onClick={() => showMenu(!Toggle)}>
               <i class="bx bx-x"></i>
             </button>
           </div>
           <ul className="navbar-list">
             <li>
-              <a href="#home" className="navbar-link" data-nav-link>
+              <a
+                href="#home"
+                className="navbar-link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="#collection" className="navbar-link" data-nav-link>
+              <a
+                href="#collection"
+                className="navbar-link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 Collection
               </a>
             </li>
             <li>
-              <a href="#shop" className="navbar-link" data-nav-link>
+              <a
+                href="#shop"
+                className="navbar-link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 Shop
               </a>
             </li>
             <li>
-              <a href="#offer" className="navbar-link" data-nav-link>
+              <a
+                href="#offer"
+                className="navbar-link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 Offer
               </a>
             </li>
             <li>
-              <a href="#blog" className="navbar-link" data-nav-link>
+              <a
+                href="#blog"
+                className="navbar-link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 Blog
               </a>
             </li>
